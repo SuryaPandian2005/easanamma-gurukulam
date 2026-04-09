@@ -10,7 +10,7 @@ import GurukulamLife from './pages/GurukulamLife'
 import AboutGuru from './pages/AboutGuru'
 import Contact from './pages/Contact'
 import ScrollToTop from "./components/ScrollToTop";
-
+import Cursor from "./components/Cursor";
 
 function AnimatedRoutes() {
   const location = useLocation()
@@ -24,6 +24,7 @@ function AnimatedRoutes() {
         <Route path="/gurukulam"     element={<GurukulamLife />} />
         <Route path="/about"         element={<AboutGuru />} />
         <Route path="/contact"       element={<Contact />} />
+        
       </Routes>
     </AnimatePresence>
   )
@@ -36,6 +37,7 @@ export default function App() {
       <ScrollToTop />
       <AnimatedRoutes />
       <Footer />
+      <Cursor />
     </BrowserRouter>
   )
 }

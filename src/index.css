@@ -98,3 +98,19 @@
 .ornament::after {
   background: linear-gradient(270deg, transparent, #C9A84C);
 }
+.cursor-dot {
+  width: 10px;
+  height: 10px;
+  background: #c9a84c;
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 9999;
+  transition: transform 0.15s ease-out;
+}
+
+body {
+  cursor: none;
+}
