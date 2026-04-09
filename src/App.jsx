@@ -9,6 +9,7 @@ import SiddharScience from './pages/SiddharScience'
 import GurukulamLife from './pages/GurukulamLife'
 import AboutGuru from './pages/AboutGuru'
 import Contact from './pages/Contact'
+import ScrollToTop from "./components/ScrollToTop";
 
 function AnimatedRoutes() {
   const location = useLocation()
@@ -31,6 +32,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <Navbar />
+      <ScrollToTop />
       <AnimatedRoutes />
       <Footer />
     </BrowserRouter>
