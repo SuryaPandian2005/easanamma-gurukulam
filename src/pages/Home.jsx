@@ -12,6 +12,8 @@ import img7 from '../assets/images/img7.jpg'
 import img8 from '../assets/images/img8.jpg'
 import img9 from '../assets/images/img9.jpg'
 import img10 from '../assets/images/img10.jpg'
+import img11 from '../assets/images/img11.jpeg'
+import img12 from '../assets/images/img12.jpeg'
 
 const pillars = [
   {
@@ -42,13 +44,13 @@ const stories = [
     title: 'A Living Gurukulam',
     body: 'Not a lecture hall — a living field. Students here don\'t just learn; they transform. The Gurukulam is designed as an ecosystem of inner work, where nature, silence, practice, and guidance meet.',
     path: '/gurukulam',
-    img: 'https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800&auto=format&fit=crop',
+    img: img11,
   },
   {
     title: 'The Guru\'s Path',
     body: 'Shree Easanamma carries the flame of the Siddhar lineage — not as an institution, but as a living transmission. Her journey from seeker to teacher is itself a teaching.',
     path: '/about',
-    img: 'https://indianblog.co.in/wp-content/uploads/2024/11/DALL%C2%B7E-2024-11-15-12.37.25-Realistic-illustration-of-Sage-Kanada-ancient-Indian-philosopher-in-traditional-attire-seated-while-observing-tiny-particles-to-represent-his-atomi.webp',
+    img: img12,
   },
 ]
 
