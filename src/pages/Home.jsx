@@ -174,11 +174,24 @@ export default function Home() {
             Where Silence Becomes Knowledge
           </h2>
           <p className="font-serif text-xl text-stone-300 leading-relaxed italic">
-            The Tamil Siddhars did not theorize about consciousness. They entered it. They mapped it. They left a complete, living science — not of the mind, but of awareness itself. Shree Easanamma Gurukulam is devoted to transmitting this unbroken science to those who are ready.
+            The Tamil Siddhars did not theorize about consciousness. 
+            They entered it, observed it, and transformed through it. 
+            This Gurukulam preserves that living science — not as belief, but as direct experience.
           </p>
         </FadeUp>
 
         <GoldDivider symbol="◈" />
+
+        <div className="text-center max-w-3xl mx-auto mt-12">
+          <h3 className="text-2xl text-gold-gradient mb-4">
+             A Science of Inner Exploration
+         </h3>
+
+          <p className="text-stone-400 italic leading-relaxed">
+             The Siddhars approached life not as belief, but as a field of direct observation. 
+            The body became the laboratory, the mind became the field, and awareness became the method.
+         </p>
+        </div>
         
 
         {/* Three pillars */}
@@ -235,7 +248,12 @@ export default function Home() {
                 <div className="md:w-1/2 bg-ember border border-gold-500/10 group-hover:border-gold-500/30 transition-colors duration-500 p-10 md:p-16 flex flex-col justify-center">
                   <h3 className="font-display text-2xl md:text-3xl text-gold-gradient mb-6">{s.title}</h3>
                   <p className="font-serif text-lg text-stone-300 leading-relaxed italic mb-8">{s.body}</p>
-                  <span className="font-sans text-[10px] tracking-[0.3em] uppercase text-gold-500/70 flex items-center gap-2 group-hover:gap-5 transition-all duration-300">
+                  <div className="mt-1 space-y-2">
+                  <p className="text-stone-400 text-sm">• Observation over belief</p>
+                  <p className="text-stone-400 text-sm">• Discipline over distraction</p>
+                  <p className="text-stone-400 text-sm">• Experience over information</p>
+                </div>
+                  <span className="mt-2 font-sans text-[10px] tracking-[0.3em] uppercase text-gold-500/70 flex items-center gap-2 group-hover:gap-5 transition-all duration-300">
                     Discover more <span>→</span>
                   </span>
                 </div>
@@ -272,17 +290,24 @@ export default function Home() {
 
 
       {/* ── CTA STRIP ─────────────────────────────────────────────────────── */}
+      
       <section className="py-32 text-center relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-gold-500/3 to-transparent pointer-events-none" />
         <FadeUp>
+
           <p className="font-sans text-[10px] tracking-[0.5em] uppercase text-gold-500/70 mb-8">
             The Path is Open
           </p>
           <h2 className="font-display text-3xl md:text-5xl text-stone-100 mb-8">
             Ready to Begin?
           </h2>
+          <div className="mt-10 space-y-4 text-stone-400 italic">
+            <p>Are you seeking answers — or clarity?</p>
+            <p>Are you following paths — or ready to observe directly?</p>
+            <p>Are you prepared to transform — not just understand?</p>
+          </div><br></br>
           <p className="font-serif italic text-stone-400 text-xl max-w-lg mx-auto mb-12">
-            The Gurukulam welcomes sincere seekers who are prepared to turn inward.
+             The Gurukulam welcomes sincere seekers who are ready to move beyond belief and enter direct experience.
           </p>
           <Link
             to="/contact"

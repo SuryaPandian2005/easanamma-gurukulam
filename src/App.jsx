@@ -11,6 +11,7 @@ import AboutGuru from './pages/AboutGuru'
 import Contact from './pages/Contact'
 import ScrollToTop from "./components/ScrollToTop";
 
+
 function AnimatedRoutes() {
   const location = useLocation()
   return (
