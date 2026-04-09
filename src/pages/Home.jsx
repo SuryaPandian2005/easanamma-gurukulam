@@ -66,7 +66,7 @@ export default function Home() {
         <motion.div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1462275646964-a0e3386b89fa?w=1600&auto=format&fit=crop')`,
+            backgroundImage: `ur('https://images.unsplash.com/photo-1462275646964-a0e3386b89fa?w=1600&auto=format&fit=crop')`,
           }}
           animate={{ y: heroY }}
         />

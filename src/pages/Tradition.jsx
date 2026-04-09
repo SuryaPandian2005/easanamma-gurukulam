@@ -22,7 +22,7 @@ export default function Tradition() {
         tag="The First Pillar"
         title="The Siddhar Tradition"
         subtitle="An unbroken river of inner science — flowing from ancient Tamil lands into the living present"
-        imgUrl="https://images.unsplash.com/photo-1518098268026-4e89f1a2cd8e?w=1400&auto=format&fit=crop"
+        imgUr="https://images.unsplash.com/photo-1518098268026-4e89f1a2cd8e?w=1400&auto=format&fit=crop"
       />
 
       {/* Intro */}

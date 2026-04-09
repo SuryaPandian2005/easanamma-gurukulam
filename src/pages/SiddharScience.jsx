@@ -35,7 +35,7 @@ export default function SiddharScience() {
         tag="The Third Pillar"
         title="Siddhar Science"
         subtitle="A complete holistic science of the human being — body, energy, mind, and cosmos"
-        imgUrl="https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=1400&auto=format&fit=crop"
+        imgUr="https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=1400&auto=format&fit=crop"
       />
 
       {/* Intro */}

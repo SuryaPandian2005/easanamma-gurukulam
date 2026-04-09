@@ -22,7 +22,7 @@ export default function Consciousness() {
         tag="The Second Pillar"
         title="Consciousness Science"
         subtitle="The Siddhar map of awareness — from ordinary perception to infinite knowing"
-        imgUrl="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=1400&auto=format&fit=crop"
+        imgUr="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=1400&auto=format&fit=crop"
       />
 
       {/* Opening */}

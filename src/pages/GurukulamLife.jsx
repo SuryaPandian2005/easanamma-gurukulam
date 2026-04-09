@@ -25,7 +25,7 @@ export default function GurukulamLife() {
         tag="The Living Ecosystem"
         title="Gurukulam Life"
         subtitle="Where the ancient structure of sacred education meets the urgent needs of the present"
-        imgUrl="https://images.unsplash.com/photo-1472114864173-39596323454f?w=1400&auto=format&fit=crop"
+        imgUr="https://images.unsplash.com/photo-1472114864173-39596323454f?w=1400&auto=format&fit=crop"
       />
 
       {/* What is a Gurukulam */}
