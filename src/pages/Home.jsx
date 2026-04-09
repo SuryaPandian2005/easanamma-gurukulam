@@ -48,7 +48,7 @@ const stories = [
     title: 'The Guru\'s Path',
     body: 'Shree Easanamma carries the flame of the Siddhar lineage — not as an institution, but as a living transmission. Her journey from seeker to teacher is itself a teaching.',
     path: '/about',
-    img: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&auto=format&fit=crop',
+    img: 'https://indianblog.co.in/wp-content/uploads/2024/11/DALL%C2%B7E-2024-11-15-12.37.25-Realistic-illustration-of-Sage-Kanada-ancient-Indian-philosopher-in-traditional-attire-seated-while-observing-tiny-particles-to-represent-his-atomi.webp',
   },
 ]
 
@@ -64,13 +64,13 @@ export default function Home() {
       <section ref={heroRef} className="relative min-h-screen flex items-center justify-center overflow-hidden">
         {/* Parallax BG */}
         <motion.div
-          style={{ y: heroY }}
           className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage: `url('https://images.unsplash.com/photo-1462275646964-a0e3386b89fa?w=1600&auto=format&fit=crop')`,
-            y: heroY,
           }}
+          animate={{ y: heroY }}
         />
+
         {/* Overlays */}
         <div className="absolute inset-0 bg-gradient-to-b from-obsidian/60 via-obsidian/40 to-obsidian" />
         <div className="absolute inset-0 bg-radial-gradient" style={{
