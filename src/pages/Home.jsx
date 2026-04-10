@@ -14,6 +14,7 @@ import img9 from '../assets/images/img9.jpg'
 import img10 from '../assets/images/img10.jpg'
 import img11 from '../assets/images/img11.jpeg'
 import img12 from '../assets/images/img12.jpeg'
+import SacredGeometry from '../components/SacredGeometry' 
 
 const pillars = [
   {
@@ -78,6 +79,10 @@ export default function Home() {
         <div className="absolute inset-0 bg-radial-gradient" style={{
           background: 'radial-gradient(ellipse at center, rgba(201,168,76,0.06) 0%, transparent 70%)'
         }} />
+        <SacredGeometry />
+
+        {/* CONTENT */}
+
 
         {/* Floating particles (CSS) */}
         {[...Array(6)].map((_, i) => (
@@ -165,6 +170,7 @@ export default function Home() {
           />
         </motion.div>
       </section>
+
 
       {/* ── INTRO ─────────────────────────────────────────────────────────── */}
       <section className="py-32 max-w-4xl mx-auto px-6 text-center">

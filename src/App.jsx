@@ -10,6 +10,7 @@ import GurukulamLife from './pages/GurukulamLife'
 import AboutGuru from './pages/AboutGuru'
 import Contact from './pages/Contact'
 import ScrollToTop from "./components/ScrollToTop";
+import Particles from "./components/Particles";
 import Cursor from "./components/Cursor";
 
 function AnimatedRoutes() {
@@ -37,6 +38,7 @@ export default function App() {
       <ScrollToTop />
       <AnimatedRoutes />
       <Footer />
+      <Particles />
       <Cursor />
     </BrowserRouter>
   )

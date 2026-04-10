@@ -44,21 +44,66 @@ export default function AboutGuru() {
           </div>
 
           {/* Decorative element */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 1.2, delay: 0.6 }}
-            className="hidden md:flex items-center justify-center"
-          >
-            <div className="relative w-64 h-64">
-              <div className="absolute inset-0 rounded-full border border-gold-500/20 animate-pulse" />
-              <div className="absolute inset-4 rounded-full border border-gold-500/15" />
-              <div className="absolute inset-8 rounded-full border border-gold-500/10" />
-              <div className="absolute inset-0 flex items-center justify-center">
-                <span className="font-serif text-7xl text-gold-500/30">⊕</span>
-              </div>
-            </div>
-          </motion.div>
+<motion.div
+  initial={{ opacity: 0, scale: 0.9 }}
+  animate={{ opacity: 1, scale: 1 }}
+  transition={{ duration: 1.5, delay: 0.5 }}
+  className="hidden md:flex items-center justify-center"
+>
+  <div className="relative w-64 h-64 flex items-center justify-center">
+
+    {/* 🔥 SACRED GEOMETRY (ANIMATED) */}
+    <motion.div
+      className="hero-geometry absolute inset-0"
+      animate={{ rotate: 360 }}
+      transition={{
+        duration: 80,
+        repeat: Infinity,
+        ease: "linear",
+      }}
+    />
+
+    {/* ✨ INNER LAYER (SLOWER ROTATION OPPOSITE) */}
+    <motion.div
+      className="hero-geometry absolute inset-4 opacity-60"
+      animate={{ rotate: -360 }}
+      transition={{
+        duration: 120,
+        repeat: Infinity,
+        ease: "linear",
+      }}
+    />
+
+    {/* 💫 CENTER ENERGY DOT */}
+    <motion.div
+      className="w-2 h-2 rounded-full bg-gold-500"
+      animate={{
+        scale: [1, 1.6, 1],
+        opacity: [0.6, 1, 0.6],
+      }}
+      transition={{
+        duration: 2,
+        repeat: Infinity,
+        ease: "easeInOut",
+      }}
+    />
+
+    {/* 🧘 SYMBOL */}
+    <motion.span
+      className="absolute font-serif text-6xl text-gold-500/30"
+      animate={{
+        opacity: [0.2, 0.5, 0.2],
+      }}
+      transition={{
+        duration: 4,
+        repeat: Infinity,
+      }}
+    >
+      𑁍
+    </motion.span>
+
+  </div>
+</motion.div>
         </div>
       </section>
 
